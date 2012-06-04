@@ -264,7 +264,7 @@ call s:HL('Float',  'toffee', '', 'bold')
 " Not sure what 'special character in a constant' means, but let's make it pop.
 call s:HL('SpecialChar', 'deeppink', '', 'bold')
 
-call s:HL('Type', 'deeppink', '', 'none')
+call s:HL('Type', 'cappuccino', '', 'none')
 call s:HL('StorageClass', 'barcared', '', 'none')
 call s:HL('Structure', 'barcared', '', 'none')
 call s:HL('Typedef', 'barcared', '', 'bold')
@@ -532,6 +532,7 @@ call s:HL('pythonDecorator',   'barcared', '', 'none')
 call s:HL('pythonRun',         'gravel', '', 'bold')
 call s:HL('pythonCoding',      'gravel', '', 'bold')
 call s:HL('pythonString',	   'toffee', '', 'none')
+call s:HL('pythonStatement',   'barcared', '', 'bold')
 
 " }}}
 " SLIMV {{{
@@ -553,10 +554,10 @@ call s:HL('hlLevel9', 'nut')
 
 call s:HL('VimCommentTitle', 'darksand', '', 'bold')
 
-call s:HL('VimMapMod',    'deeppink', '', 'none')
-call s:HL('VimMapModKey', 'deeppink', '', 'none')
-call s:HL('VimNotation', 'deeppink', '', 'none')
-call s:HL('VimBracket', 'deeppink', '', 'none')
+call s:HL('VimMapMod',    'barcared', '', 'none')
+call s:HL('VimMapModKey', 'barcared', '', 'none')
+call s:HL('VimNotation', 'barcared', '', 'none')
+call s:HL('VimBracket', 'barcared', '', 'none')
 
 endif
 " }}}

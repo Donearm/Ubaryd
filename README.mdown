@@ -1,0 +1,21 @@
+#Ubaryd
+
+A color scheme for Vim with warm, Mediterranean-like, colours. Still a very much work in progress project,
+feel free to pull request, hack, fork and do-whatever-you-want-with-it-as-long-as-you-give-credit.
+
+Many, many thanks to [Steve Losh](http://stevelosh.com) and his [Bad Wolf](https://github.com/sjl/badwolf/tree/)
+that was of profound inspiration for this scheme. Without his work, Ubaryd wouldn't be born.
+
+##Screenshots
+
+####Markdown
+
+![](http://ompldr.org/vZTJ5MA/markdown.png)
+
+####Vim
+
+![](http://ompldr.org/vZTJ5Mg/vim.png)
+
+####Lua
+
+![](http://ompldr.org/vZTJ5MQ/lua.png)

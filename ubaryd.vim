@@ -63,7 +63,7 @@ let s:ubc.snow = ['ffffff', 15]
 let s:ubc.coal = ['000000', 16]
 
 " All of the Gravel colors are based on a brown from Clouds Midnight.
-let s:ubc.bleaksand   = ['d9cec3', 252]
+let s:ubc.bleaksand   = ['c7b386', 252]
 let s:ubc.darksand    = ['998f84', 245]
 let s:ubc.gravel         = ['857f78', 243]
 let s:ubc.mediumsand   = ['666462', 241]
@@ -82,27 +82,30 @@ let s:ubc.lighttannedskin = ['f4cf86', 222]
 " That looks like Barça's red
 let s:ubc.barcared = ['e25a74', 161]
 
-" Actually, a tad lighter than a proper lichen
-let s:ubc.greenlichen = ['52c580', 121]
+" Algae, the lighter, green, kind
+let s:ubc.algae = ['70d731', 121]
 
 " Not Adobe but adobe. Not red but warm brown
 let s:ubc.warmadobe = ['9a4820', 39]
-let s:ubc.prussian = ['315670', 18]
+let s:ubc.beachblue = ['416389', 18]
 
 let s:ubc.orange = ['ffa724', 214]
 " A warmer version
-let s:ubc.warmorange = ['ff8100', 215]
+let s:ubc.warmorange = ['ff7400', 215]
 
-" Lime yes but easy on the eyes
-let s:ubc.bleaklime = ['c0dc75', 154]
+" Lemon yes but easy on the eyes
+let s:ubc.bleaklemon = ['f9ef6d', 154]
 
-let s:ubc.deeppink = ['e25a74', 211]
+" Ever seen a tanned umbrella? Me neither
+let s:ubc.tannedumbrella = ['c14c3d', 160]
+"let s:ubc.tannedumbrella = ['e25a74', 211]
 
 " Another play on the brown from Clouds Midnight.  I love that color.
 let s:ubc.toffee = ['b88853', 137]
 
 " Also based on that Clouds Midnight brown.
 let s:ubc.nut    = ['c7915b', 173]
+" What? Your cappuccino isn't that dark? Then it sucks
 let s:ubc.cappuccino = ['88633f', 95]
 
 " }}}
@@ -183,17 +186,17 @@ call s:HL('IncSearch', 'coal', 'warmadobe',    'bold')
 call s:HL('Underlined', 'fg', '', 'underline')
 
 call s:HL('StatusLine',   'snow', 'deepgravel',     'bold')
-call s:HL('StatusLineNC', 'prussian', 'deepgravel', 'bold')
+call s:HL('StatusLineNC', 'beachblue', 'deepgravel', 'bold')
 
 call s:HL('Directory', 'lighttannedskin', '', 'bold')
 
-call s:HL('Title', 'bleaklime')
+call s:HL('Title', 'bleaklemon')
 
 call s:HL('ErrorMsg',   'barcared',       'bg', 'bold')
 call s:HL('MoreMsg',    'warmcorn',   '',   'bold')
 call s:HL('ModeMsg',    'lighttannedskin', '',   'bold')
 call s:HL('Question',   'lighttannedskin', '',   'bold')
-call s:HL('WarningMsg', 'deeppink',       '',   'bold')
+call s:HL('WarningMsg', 'tannedumbrella',       '',   'bold')
 
 " This is a ctags tag, not an HTML one.  'Something you can use c-] on'.
 call s:HL('Tag', '', '', 'bold')
@@ -241,16 +244,16 @@ call s:HL('Repeat',      'barcared', '', 'none')
 call s:HL('Identifier', 'orange', '', 'none')
 call s:HL('Function',   'orange', '', 'none')
 
-" Preprocessor stuff is bleaklime, to make it pop.
+" Preprocessor stuff is bleaklemon, to make it pop.
 "
 " This includes imports in any given language, because they should usually be
 " grouped together at the beginning of a file.  If they're in the middle of some
 " other code they should stand out, because something tricky is
 " probably going on.
-call s:HL('PreProc',   'bleaklime', '', 'none')
-call s:HL('Macro',     'bleaklime', '', 'none')
-call s:HL('Define',    'bleaklime', '', 'none')
-call s:HL('PreCondit', 'bleaklime', '', 'bold')
+call s:HL('PreProc',   'bleaklemon', '', 'none')
+call s:HL('Macro',     'bleaklemon', '', 'none')
+call s:HL('Define',    'bleaklemon', '', 'none')
+call s:HL('PreCondit', 'bleaklemon', '', 'bold')
 
 " Constants of all kinds are colored together.
 " I'm not really happy with the color yet...
@@ -262,7 +265,7 @@ call s:HL('Number', 'toffee', '', 'bold')
 call s:HL('Float',  'toffee', '', 'bold')
 
 " Not sure what 'special character in a constant' means, but let's make it pop.
-call s:HL('SpecialChar', 'deeppink', '', 'bold')
+call s:HL('SpecialChar', 'tannedumbrella', '', 'bold')
 
 call s:HL('Type', 'cappuccino', '', 'none')
 call s:HL('StorageClass', 'barcared', '', 'none')
@@ -270,7 +273,7 @@ call s:HL('Structure', 'barcared', '', 'none')
 call s:HL('Typedef', 'barcared', '', 'bold')
 
 " Make try/catch blocks stand out.
-call s:HL('Exception', 'bleaklime', '', 'bold')
+call s:HL('Exception', 'bleaklemon', '', 'bold')
 
 " Misc
 call s:HL('Error',  'snow',   'barcared', 'bold')
@@ -380,8 +383,8 @@ call s:HL('clojureCond',     'barcared', '', '')
 
 call s:HL('clojureKeyword', 'orange', '', 'none')
 
-call s:HL('clojureFunc',   'deeppink', '', 'none')
-call s:HL('clojureRepeat', 'deeppink', '', 'none')
+call s:HL('clojureFunc',   'tannedumbrella', '', 'none')
+call s:HL('clojureRepeat', 'tannedumbrella', '', 'none')
 
 call s:HL('clojureParen0', 'darksand', '', 'none')
 
@@ -415,8 +418,8 @@ call s:HL('cssClassName', 'orange', '', 'none')
 
 call s:HL('gitDiff', 'darksand', '',)
 
-call s:HL('diffRemoved', 'deeppink', '',)
-call s:HL('diffAdded', 'bleaklime', '',)
+call s:HL('diffRemoved', 'tannedumbrella', '',)
+call s:HL('diffAdded', 'bleaklemon', '',)
 call s:HL('diffFile', 'coal', 'barcared', 'bold')
 call s:HL('diffNewFile', 'coal', 'barcared', 'bold')
 
@@ -442,7 +445,7 @@ call s:HL('htmlEndTag', 'cappuccino', 'bg', 'none')
 " Tag names
 call s:HL('htmlTagName',        'nut', '', 'bold')
 call s:HL('htmlSpecialTagName', 'nut', '', 'bold')
-call s:HL('htmlSpecialChar',    'bleaklime',   '', 'none')
+call s:HL('htmlSpecialChar',    'bleaklemon',   '', 'none')
 
 " Attributes
 call s:HL('htmlArg', 'nut', '', 'none')
@@ -467,7 +470,7 @@ call s:HL('javaDocParam', 'warmcorn', '', '')
 " }}}
 " LessCSS {{{
 
-call s:HL('lessVariable', 'bleaklime', '', 'none')
+call s:HL('lessVariable', 'bleaklemon', '', 'none')
 
 " }}}
 " Mail {{{
@@ -480,10 +483,10 @@ call s:HL('mailURL', 'toffee', '', 'underline')
 call s:HL('mailSignature', 'gravel', '', 'none')
 
 call s:HL('mailQuoted1', 'gravel', '', 'none')
-call s:HL('mailQuoted2', 'deeppink', '', 'none')
+call s:HL('mailQuoted2', 'tannedumbrella', '', 'none')
 call s:HL('mailQuoted3', 'lighttannedskin', '', 'none')
 call s:HL('mailQuoted4', 'orange', '', 'none')
-call s:HL('mailQuoted5', 'bleaklime', '', 'none')
+call s:HL('mailQuoted5', 'bleaklemon', '', 'none')
 
 " }}}
 " Markdown {{{
@@ -514,19 +517,19 @@ call s:HL('markdownCodeBlock', 'cappuccino', '', 'none')
 " }}}
 " MySQL {{{
 
-call s:HL('mysqlSpecial', 'deeppink', '', 'bold')
+call s:HL('mysqlSpecial', 'tannedumbrella', '', 'bold')
 
 " }}}
 " Python {{{
 
 hi def link pythonOperator Operator
-call s:HL('pythonBuiltin',     'deeppink')
-call s:HL('pythonBuiltinObj',  'deeppink')
-call s:HL('pythonBuiltinFunc', 'deeppink')
-call s:HL('pythonEscape',      'deeppink')
-call s:HL('pythonException',   'bleaklime', '', 'bold')
-call s:HL('pythonExceptions',  'bleaklime', '', 'none')
-call s:HL('pythonPrecondit',   'bleaklime', '', 'none')
+call s:HL('pythonBuiltin',     'tannedumbrella')
+call s:HL('pythonBuiltinObj',  'tannedumbrella')
+call s:HL('pythonBuiltinFunc', 'tannedumbrella')
+call s:HL('pythonEscape',      'tannedumbrella')
+call s:HL('pythonException',   'bleaklemon', '', 'bold')
+call s:HL('pythonExceptions',  'bleaklemon', '', 'none')
+call s:HL('pythonPrecondit',   'bleaklemon', '', 'none')
 call s:HL('pythonInclude',	   'warmorange', '', 'none')
 call s:HL('pythonDecorator',   'barcared', '', 'none')
 call s:HL('pythonRun',         'gravel', '', 'bold')
@@ -540,13 +543,13 @@ call s:HL('pythonStatement',   'barcared', '', 'bold')
 " Rainbow parentheses
 call s:HL('hlLevel0', 'gravel')
 call s:HL('hlLevel1', 'orange')
-call s:HL('hlLevel2', 'greenlichen')
-call s:HL('hlLevel3', 'deeppink')
+call s:HL('hlLevel2', 'algae')
+call s:HL('hlLevel3', 'tannedumbrella')
 call s:HL('hlLevel4', 'nut')
 call s:HL('hlLevel5', 'lighttannedskin')
 call s:HL('hlLevel6', 'orange')
-call s:HL('hlLevel7', 'greenlichen')
-call s:HL('hlLevel8', 'deeppink')
+call s:HL('hlLevel7', 'algae')
+call s:HL('hlLevel8', 'tannedumbrella')
 call s:HL('hlLevel9', 'nut')
 
 " }}}

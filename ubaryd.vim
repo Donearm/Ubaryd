@@ -86,7 +86,7 @@ let s:ubc.barcared = ['e25a74', 161]
 let s:ubc.algae = ['70d731', 121]
 
 " Not Adobe but adobe. Not red but warm brown
-let s:ubc.warmadobe = ['9a4820', 39]
+let s:ubc.warmadobe = ['9a4820', 88]
 let s:ubc.beachblue = ['416389', 18]
 
 let s:ubc.orange = ['ffa724', 214]
@@ -483,10 +483,11 @@ call s:HL('mailURL', 'toffee', '', 'underline')
 call s:HL('mailSignature', 'gravel', '', 'none')
 
 call s:HL('mailQuoted1', 'gravel', '', 'none')
-call s:HL('mailQuoted2', 'tannedumbrella', '', 'none')
-call s:HL('mailQuoted3', 'lighttannedskin', '', 'none')
-call s:HL('mailQuoted4', 'orange', '', 'none')
-call s:HL('mailQuoted5', 'bleaklemon', '', 'none')
+call s:HL('mailQuoted2', 'lighttannedskin', '', 'none')
+call s:HL('mailQuoted3', 'nut', '', 'none')
+call s:HL('mailQuoted4', 'cappuccino', '', 'none')
+call s:HL('mailQuoted5', 'toffee', '', 'none')
+call s:HL('mailQuoted6', 'darkgravel', '', 'none')
 
 " }}}
 " Markdown {{{

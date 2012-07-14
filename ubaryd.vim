@@ -422,6 +422,18 @@ call s:HL('cssIdentifier', 'orange', '', 'bold')
 call s:HL('cssClassName', 'orange', '', 'none')
 
 " }}}
+" Crontab {{{
+
+call s:HL('crontabMin', 'algae', '')
+call s:HL('crontabHr', 'bleaklemon', '')
+call s:HL('crontabDay', 'toffee', '')
+call s:HL('crontabMnth', 'tannedumbrella', '')
+call s:HL('crontabMnth12', 'tannedumbrella', '')
+call s:HL('crontabDow', 'warmorange', '')
+call s:HL('crontabDow7', 'warmorange', '')
+call s:HL('crontabCmd', 'lighttannedskin', '')
+
+" }}}
 " Diff {{{
 
 call s:HL('gitDiff', 'darksand', '',)

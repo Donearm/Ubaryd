@@ -510,6 +510,12 @@ call s:HL('mailQuoted5', 'toffee', '', 'none')
 call s:HL('mailQuoted6', 'darkgravel', '', 'none')
 
 " }}}
+" Mailcap {{{
+
+call s:HL('mailcapTypeField', 'cappuccino', '')
+call s:HL('mailcapFlag', 'nut', '')
+
+" }}}
 " Markdown {{{
 
 call s:HL('markdownHeadingRule', 'darksand', '', 'bold')

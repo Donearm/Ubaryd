@@ -372,6 +372,14 @@ call s:HL('ShowMarksHLm', 'warmadobe', 'blackgravel')
 " }}}
 " Filetype-specific {{{
 
+" C {{{
+
+call s:HL('cType', 'warmorange', 'bg')
+call s:HL('cStructure', 'orange', 'bg')
+call s:HL('cConstant', 'cappuccino', 'bg')
+
+" }}}
+
 " Clojure {{{
 
 call s:HL('clojureSpecial',  'barcared', '', '')

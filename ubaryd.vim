@@ -464,6 +464,13 @@ call s:HL('fsTypeKeyword', 'barcared', '')
 call s:HL('fsMountPoint', 'bleaklemon', '')
 
 " }}}
+" Haskell {{{
+
+call s:HL('hsVarSym', 'warmorange', '')
+call s:HL('hsStatement', 'warmadobe', '')
+call s:HL('hsConditional', 'warmadobe', '')
+
+" }}}
 " HTML {{{
 
 " Punctuation

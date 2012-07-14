@@ -493,6 +493,11 @@ call s:HL('javaDocParam', 'warmcorn', '', '')
 call s:HL('lessVariable', 'bleaklemon', '', 'none')
 
 " }}}
+" Lua {{{
+
+call s:HL('luaFunc', 'nut', '')
+
+" }}}
 " Mail {{{
 
 call s:HL('mailSubject', 'orange', '', 'bold')

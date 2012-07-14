@@ -456,6 +456,14 @@ call s:HL('djangoVarBlock', 'orange', '')
 " hi djangoVarBlock guifg=#f4cf86
 
 " }}}
+" Fstab {{{
+
+call s:HL('fsOptionsGeneral', 'nut', '')
+call s:HL('fsOptionsKeywords', 'nut', '')
+call s:HL('fsTypeKeyword', 'barcared', '')
+call s:HL('fsMountPoint', 'bleaklemon', '')
+
+" }}}
 " HTML {{{
 
 " Punctuation

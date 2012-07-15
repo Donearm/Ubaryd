@@ -10,12 +10,12 @@ that was of profound inspiration for this scheme. Without his work, Ubaryd would
 
 ####Markdown
 
-![](http://ompldr.org/vZTJ5MA/markdown.png)
+![](http://ompldr.org/vZXIxaw/markdown.png)
 
 ####Vim
 
-![](http://ompldr.org/vZTJ5Mg/vim.png)
+![](http://ompldr.org/vZXIxag/vim.png)
 
 ####Lua
 
-![](http://ompldr.org/vZTJ5MQ/lua.png)
+![](http://ompldr.org/vZXIxbA/lua.png)

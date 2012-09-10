@@ -502,6 +502,32 @@ call s:HL('javaCommentTitle', 'gravel', '')
 call s:HL('javaDocTags', 'snow', '', 'none')
 call s:HL('javaDocParam', 'warmcorn', '', '')
 
+" LaTex {{{
+
+call s:HL('textStatement', 'snow', '', 'none')
+call s:HL('texMathZoneX', 'warmcorn', '', 'none')
+call s:HL('texMathZoneA', 'warmcorn', '', 'none')
+call s:HL('texMathZoneB', 'warmcorn', '', 'none')
+call s:HL('texMathZoneC', 'warmcorn', '', 'none')
+call s:HL('texMathZoneD', 'warmcorn', '', 'none')
+call s:HL('texMathZoneE', 'warmcorn', '', 'none')
+call s:HL('texMathZoneV', 'warmcorn', '', 'none')
+call s:HL('texMathZoneX', 'warmcorn', '', 'none')
+call s:HL('texMath', 'warmcorn', '', 'none')
+call s:HL('texMathMatcher', 'warmcorn', '', 'none')
+call s:HL('texRefLabel', 'darksand', '', 'none')
+call s:HL('texRefZone', 'warmadobe', '', 'none')
+call s:HL('texComment', 'bleaklemon', '', 'none')
+call s:HL('texDelimiter', 'warmcorn', '', 'none')
+call s:HL('texZone', 'gravel', '', 'none')
+
+augroup ubaryd_tex
+    au!
+
+    au BufRead,BufNewFile *.tex syn region texMathZoneV start="\\(" end="\\)\|%stopzone\>" keepend contains=@texMathZoneGroup
+    au BufRead,BufNewFile *.tex syn region texMathZoneX start="\$" skip="\\\\\|\\\$" end="\$\|%stopzone\>" keepend contains=@texMathZoneGroup
+augroup END
+
 " }}}
 " LessCSS {{{
 

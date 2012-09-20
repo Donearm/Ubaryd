@@ -469,6 +469,15 @@ call s:HL('fsMountPoint', 'bleaklemon', '')
 call s:HL('hsVarSym', 'warmorange', '')
 call s:HL('hsStatement', 'warmadobe', '')
 call s:HL('hsConditional', 'warmadobe', '')
+call s:HL('hsConSym', 'bleaklemon', '')
+call s:HL('hsTypedef', 'lighttannedskin', '')
+call s:HL('hsStructure', 'lighttannedskin', '')
+call s:HL('hsType', 'darksand', '')
+call s:HL('hsMaybe', 'darksand', '')
+call s:HL('hsBoolean', 'darksand', '')
+call s:HL('hsExitCode', 'darksand', '')
+call s:HL('hsOrdering', 'darksand', '')
+call s:HL('hsDebug', 'darksand', '')
 
 " }}}
 " HTML {{{

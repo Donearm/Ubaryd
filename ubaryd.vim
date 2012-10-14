@@ -62,7 +62,6 @@ let s:ubc.plain = ['f8f6f2', 15]
 let s:ubc.snow = ['ffffff', 15]
 let s:ubc.coal = ['000000', 16]
 
-" All of the Gravel colors are based on a brown from Clouds Midnight.
 let s:ubc.bleaksand   = ['c7b386', 252]
 let s:ubc.darksand    = ['998f84', 245]
 let s:ubc.gravel         = ['857f78', 243]
@@ -87,6 +86,8 @@ let s:ubc.algae = ['70d731', 121]
 
 " Not Adobe but adobe. Not red but warm brown
 let s:ubc.warmadobe = ['9a4820', 88]
+
+" A calm, blue sea colour
 let s:ubc.beachblue = ['416389', 18]
 
 let s:ubc.orange = ['ffa724', 214]
@@ -98,12 +99,11 @@ let s:ubc.bleaklemon = ['f9ef6d', 154]
 
 " Ever seen a tanned umbrella? Me neither
 let s:ubc.tannedumbrella = ['c14c3d', 160]
-"let s:ubc.tannedumbrella = ['e25a74', 211]
 
-" Another play on the brown from Clouds Midnight.  I love that color.
+" Do you know those slightly disgusting, brown, soft confections? I hope 
+" you don't...
 let s:ubc.toffee = ['b88853', 137]
-
-" Also based on that Clouds Midnight brown.
+" A light nut
 let s:ubc.nut    = ['c7915b', 173]
 " What? Your cappuccino isn't that dark? Then it sucks
 let s:ubc.cappuccino = ['88633f', 95]
@@ -224,7 +224,6 @@ call s:HL('iCursor', 'coal', 'warmadobe', 'none')
 " Start with a simple base.
 call s:HL('Special', 'plain')
 
-" Comments are slightly brighter than folds, to make 'headers' easier to see.
 call s:HL('Comment',        'gravel')
 call s:HL('Todo',           'barcared', 'snow', 'bold')
 call s:HL('SpecialComment', 'snow', 'bg', 'bold')
@@ -240,7 +239,7 @@ call s:HL('Operator',    'barcared', '', 'none')
 call s:HL('Label',       'barcared', '', 'none')
 call s:HL('Repeat',      'barcared', '', 'none')
 
-" Functions and variable declarations are orange, because plain looks weird.
+" Functions and variable declarations are orange
 call s:HL('Identifier', 'orange', '', 'none')
 call s:HL('Function',   'orange', '', 'none')
 
@@ -255,12 +254,10 @@ call s:HL('Macro',     'bleaklemon', '', 'none')
 call s:HL('Define',    'bleaklemon', '', 'none')
 call s:HL('PreCondit', 'bleaklemon', '', 'bold')
 
-" Constants of all kinds are colored together.
-" I'm not really happy with the color yet...
+" Constants of all kinds are coloured together.
 call s:HL('Constant',  'toffee', '', 'bold')
 call s:HL('Character', 'toffee', '', 'bold')
 call s:HL('Boolean',   'toffee', '', 'bold')
-
 call s:HL('Number', 'toffee', '', 'bold')
 call s:HL('Float',  'toffee', '', 'bold')
 

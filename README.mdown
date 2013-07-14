@@ -7,15 +7,19 @@ feel free to pull request, hack, fork and do-whatever-you-want-with-it-as-long-a
 
 ####Markdown
 
-![](http://ompldr.org/vZXIxaw/markdown.png)
+![markdown](https://f.cloud.github.com/assets/120833/793983/78287ec8-ec5b-11e2-8b54-1d6a9a566b20.png)
 
-####Vim
+####Python
 
-![](http://ompldr.org/vZXIxag/vim.png)
+![python](https://f.cloud.github.com/assets/120833/793984/7826d4c4-ec5b-11e2-86f2-e44f60ca4b82.png)
 
 ####Lua
 
-![](http://ompldr.org/vZXIxbA/lua.png)
+![lua](https://f.cloud.github.com/assets/120833/793982/780bef6a-ec5b-11e2-9789-266b77dd05f6.png)
+
+####C
+
+![c](https://f.cloud.github.com/assets/120833/793981/77e2c3f6-ec5b-11e2-83b7-c83679b3cfcf.png)
 
 #Credits
 

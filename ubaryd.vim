@@ -461,6 +461,14 @@ call s:HL('fsTypeKeyword', 'barcared', '')
 call s:HL('fsMountPoint', 'bleaklemon', '')
 
 " }}}
+
+" Go {{{
+call s:HL('goType', 'bleaklemon', '')
+call s:HL('goDeclaration', 'tannedumbrella', '')
+call s:HL('goStatement', 'warmorange', '')
+call s:HL('goDirective', 'toffee', '')
+
+" }}}
 " Haskell {{{
 
 call s:HL('hsVarSym', 'warmorange', '')

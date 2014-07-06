@@ -516,6 +516,13 @@ call s:HL('javaCommentTitle', 'gravel', '')
 call s:HL('javaDocTags', 'snow', '', 'none')
 call s:HL('javaDocParam', 'warmcorn', '', '')
 
+" Json {{{
+
+call s:HL('jsonString', 'barcared', '', '')
+call s:HL('jsonNumber', 'warmcorn', '', '')
+call s:HL('jsonBoolean', 'bleaklemon', '', '')
+call s:HL('jsonNull', 'gravel', '', 'bold')
+
 " LaTex {{{
 
 call s:HL('textStatement', 'snow', '', 'none')

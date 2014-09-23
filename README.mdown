@@ -1,7 +1,6 @@
 #Ubaryd
 
-A color scheme for Vim with warm, Mediterranean-like, colours. Still a very much work in progress project,
-feel free to pull request, hack, fork and do-whatever-you-want-with-it-as-long-as-you-give-credit.
+A color scheme for Vim with warm, Mediterranean-like, colours. 
 
 ##Screenshots
 
@@ -20,6 +19,10 @@ feel free to pull request, hack, fork and do-whatever-you-want-with-it-as-long-a
 ####C
 
 ![c](https://f.cloud.github.com/assets/120833/793981/77e2c3f6-ec5b-11e2-83b7-c83679b3cfcf.png)
+
+#License
+
+Do Whatever You Want With This As Long As You Credit Where It's Due®
 
 #Credits
 

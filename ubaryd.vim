@@ -516,6 +516,17 @@ call s:HL('javaCommentTitle', 'gravel', '')
 call s:HL('javaDocTags', 'snow', '', 'none')
 call s:HL('javaDocParam', 'warmcorn', '', '')
 
+" JavaScript {{{
+call s:HL('javaScriptStringD', 'lighttannedskin', '')
+call s:HL('javaScriptStringS', 'lighttannedskin', '')
+call s:HL('javaScriptBoolean', 'bleaklemon', '')
+call s:HL('javaScriptNull', 'barcared', '')
+call s:HL('javaScriptStatement', 'warmadobe', '')
+call s:HL('javaScriptFunction', 'tannedumbrella', '')
+call s:HL('javaScriptIdentifier', 'toffee', '')
+call s:HL('javaScriptBranch', 'tannedumbrella', '')
+" }}}
+
 " Json {{{
 
 call s:HL('jsonString', 'barcared', '', '')

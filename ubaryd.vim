@@ -17,7 +17,7 @@
 "
 " Maintainer:	Gianluca Fiore <forod.g@gmail.com>
 " Inspiration:	https://github.com/sjl/badwolf/
-" Last Change:	June 2012
+" Last Change:	October 2014
 " License:		Do Whatever You Want With This As Long As You Credit Where It's Due®
 "
 " }}}
@@ -107,7 +107,6 @@ let s:ubc.toffee = ['b88853', 137]
 let s:ubc.nut    = ['c7915b', 173]
 " What? Your cappuccino isn't that dark? Then it sucks
 let s:ubc.cappuccino = ['88633f', 95]
-
 " }}}
 " Highlighting Function {{{
 function! s:HL(group, fg, ...)
@@ -158,7 +157,6 @@ endif
 " }}}
 
 " Actual colorscheme ----------------------------------------------------------
-" Vanilla Vim {{{
 
 " General/UI {{{
 
@@ -376,7 +374,6 @@ call s:HL('cStructure', 'orange', 'bg')
 call s:HL('cConstant', 'cappuccino', 'bg')
 
 " }}}
-
 " Clojure {{{
 
 call s:HL('clojureSpecial',  'barcared', '', '')
@@ -461,7 +458,6 @@ call s:HL('fsTypeKeyword', 'barcared', '')
 call s:HL('fsMountPoint', 'bleaklemon', '')
 
 " }}}
-
 " Go {{{
 call s:HL('goType', 'bleaklemon', '')
 call s:HL('goDeclaration', 'tannedumbrella', '')
@@ -516,6 +512,7 @@ call s:HL('javaCommentTitle', 'gravel', '')
 call s:HL('javaDocTags', 'snow', '', 'none')
 call s:HL('javaDocParam', 'warmcorn', '', '')
 
+" }}}
 " JavaScript {{{
 call s:HL('javaScriptStringD', 'lighttannedskin', '')
 call s:HL('javaScriptStringS', 'lighttannedskin', '')
@@ -525,8 +522,8 @@ call s:HL('javaScriptStatement', 'warmadobe', '')
 call s:HL('javaScriptFunction', 'tannedumbrella', '')
 call s:HL('javaScriptIdentifier', 'toffee', '')
 call s:HL('javaScriptBranch', 'tannedumbrella', '')
-" }}}
 
+" }}}
 " Json {{{
 
 call s:HL('jsonString', 'barcared', '', '')
@@ -534,6 +531,7 @@ call s:HL('jsonNumber', 'warmcorn', '', '')
 call s:HL('jsonBoolean', 'bleaklemon', '', '')
 call s:HL('jsonNull', 'gravel', '', 'bold')
 
+" }}}
 " LaTex {{{
 
 call s:HL('textStatement', 'snow', '', 'none')

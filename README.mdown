@@ -26,6 +26,6 @@ Do Whatever You Want With This As Long As You Credit Where It's Due®
 
 #Credits
 
-Many, many thanks to [Steve Losh](http://stevelosh.com) and his [Bad Wolf](https://github.com/sjl/badwolf/tree/)
+Many, many thanks to [Steve Losh](http://stevelosh.com) and his [Bad Wolf](https://github.com/sjl/badwolf)
 that was of profound inspiration for this scheme. Without his work, Ubaryd wouldn't be born (and I'd still be 
 using an ugly Vim theme...)

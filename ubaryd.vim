@@ -190,7 +190,7 @@ call s:HL('Directory', 'lighttannedskin', '', 'bold')
 
 call s:HL('Title', 'bleaklemon')
 
-call s:HL('ErrorMsg',   'barcared',       'bg', 'bold')
+call s:HL('ErrorMsg',   'barcared',       '', 'bold')
 call s:HL('MoreMsg',    'warmcorn',   '',   'bold')
 call s:HL('ModeMsg',    'lighttannedskin', '',   'bold')
 call s:HL('Question',   'lighttannedskin', '',   'bold')
@@ -286,9 +286,9 @@ call s:HL('PmenuThumb', 'bleaksand')
 " }}}
 " Diffs {{{
 
-call s:HL('DiffDelete', 'coal', 'coal')
-call s:HL('DiffAdd',    '',     'deepergravel')
-call s:HL('DiffChange', '',     'darkgravel')
+call s:HL('DiffDelete', 'coal', 'warmadobe')
+call s:HL('DiffAdd',    'barcared',     'deepergravel')
+call s:HL('DiffChange', 'warmorange',     'darkgravel')
 call s:HL('DiffText',   'snow', 'deepergravel', 'bold')
 
 " }}}

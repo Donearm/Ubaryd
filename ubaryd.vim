@@ -190,7 +190,7 @@ call s:HL('Directory', 'lighttannedskin', '', 'bold')
 
 call s:HL('Title', 'bleaklemon')
 
-call s:HL('ErrorMsg',   'barcared',       '', 'bold')
+call s:HL('ErrorMsg',   'snow',       '', 'bold')
 call s:HL('MoreMsg',    'warmcorn',   '',   'bold')
 call s:HL('ModeMsg',    'lighttannedskin', '',   'bold')
 call s:HL('Question',   'lighttannedskin', '',   'bold')

@@ -526,7 +526,7 @@ call s:HL('javaScriptBranch', 'tannedumbrella', '')
 " }}}
 " Json {{{
 
-call s:HL('jsonString', 'barcared', '', '')
+call s:HL('jsonString', 'toffee', '', '')
 call s:HL('jsonNumber', 'warmcorn', '', '')
 call s:HL('jsonBoolean', 'bleaklemon', '', '')
 call s:HL('jsonNull', 'gravel', '', 'bold')

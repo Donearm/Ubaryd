@@ -414,6 +414,7 @@ call s:HL('cssColor', 'toffee', '', 'bold')
 call s:HL('cssBraces', 'darksand', '', 'none')
 call s:HL('cssIdentifier', 'orange', '', 'bold')
 call s:HL('cssClassName', 'orange', '', 'none')
+call s:HL('cssImportant', 'bleaklemon', '', 'bold')
 
 " }}}
 " Crontab {{{

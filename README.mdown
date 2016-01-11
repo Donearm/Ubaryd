@@ -1,6 +1,6 @@
 #Ubaryd
 
-A color scheme for Vim with warm, Mediterranean-like, colours. 
+A color scheme for Vim (and Neovim) with warm, Mediterranean-like, colours. 
 
 ##Screenshots
 

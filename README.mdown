@@ -1,30 +1,30 @@
-#Ubaryd
+# Ubaryd
 
 A color scheme for Vim (and Neovim) with warm, Mediterranean-like, colours. 
 
-##Screenshots
+## Screenshots
 
-####Markdown
+#### Markdown
 
 ![markdown](https://f.cloud.github.com/assets/120833/793983/78287ec8-ec5b-11e2-8b54-1d6a9a566b20.png)
 
-####Python
+#### Python
 
 ![python](https://f.cloud.github.com/assets/120833/793984/7826d4c4-ec5b-11e2-86f2-e44f60ca4b82.png)
 
-####Lua
+#### Lua
 
 ![lua](https://f.cloud.github.com/assets/120833/793982/780bef6a-ec5b-11e2-9789-266b77dd05f6.png)
 
-####C
+#### C
 
 ![c](https://f.cloud.github.com/assets/120833/793981/77e2c3f6-ec5b-11e2-83b7-c83679b3cfcf.png)
 
-#License
+# License
 
 Do Whatever You Want With This As Long As You Credit Where It's Due®
 
-#Credits
+# Credits
 
 Many, many thanks to [Steve Losh](http://stevelosh.com) and his [Bad Wolf](https://github.com/sjl/badwolf/)
 that was of profound inspiration for this scheme. Without his work, Ubaryd wouldn't be born (and I'd still be 

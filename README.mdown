@@ -22,7 +22,7 @@ A color scheme for Vim (and Neovim) with warm, Mediterranean-like, colours.
 
 # License
 
-Do Whatever You Want With This As Long As You Credit Where It's Due®
+MIT. See LICENSE
 
 # Credits
 

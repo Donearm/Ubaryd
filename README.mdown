@@ -29,3 +29,5 @@ MIT. See LICENSE
 Many, many thanks to [Steve Losh](http://stevelosh.com) and his [Bad Wolf](https://github.com/sjl/badwolf/)
 that was of profound inspiration for this scheme. Without his work, Ubaryd wouldn't be born (and I'd still be 
 using an ugly Vim theme...)
+
+[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/W7W7KA0Z)

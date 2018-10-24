@@ -17,7 +17,7 @@
 "
 " Maintainer:	Gianluca Fiore <forod.g@gmail.com>
 " Inspiration:	https://github.com/sjl/badwolf/
-" Last Change:	October 2014
+" Last Change:	October 2018
 " License:		MIT
 "
 " }}}

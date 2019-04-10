@@ -60,7 +60,6 @@ let s:ubc.plain = ['f8f6f2', 15]
 let s:ubc.snow = ['ffffff', 15]
 let s:ubc.coal = ['000000', 16]
 " Dark and grays
-let s:ubc.bleaksand   = ['c7b386', 252]
 let s:ubc.darksand    = ['998f84', 245]
 let s:ubc.gravel         = ['989189', 246]
 let s:ubc.mediumsand   = ['666462', 241]
@@ -270,7 +269,7 @@ call s:HL('Ignore', 'gravel', '',      '')
 call s:HL('Pmenu', 'plain', 'deepergravel')
 call s:HL('PmenuSel', 'coal', 'warmadobe', 'bold')
 call s:HL('PmenuSbar', '', 'deepergravel')
-call s:HL('PmenuThumb', 'bleaksand')
+call s:HL('PmenuThumb', 'darksand')
 
 " }}}
 " Diffs {{{

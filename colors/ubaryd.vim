@@ -718,3 +718,5 @@ call s:HL('VimBracket', 'barcared', '', 'none')
 
 endif
 " }}}
+
+unlet s:ubc

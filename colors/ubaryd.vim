@@ -54,14 +54,12 @@ endif " }}}
 
 let s:ubc = {}
 
-" The most basic of all our colors is a slightly tweaked version of the Molokai
-" Normal text.
+" Normal text. White (but not pure white)
 let s:ubc.plain = ['f8f6f2', 15]
-
 " Pure and simple.
 let s:ubc.snow = ['ffffff', 15]
 let s:ubc.coal = ['000000', 16]
-
+" Dark and grays
 let s:ubc.bleaksand   = ['c7b386', 252]
 let s:ubc.darksand    = ['998f84', 245]
 let s:ubc.gravel         = ['989189', 246]
@@ -71,35 +69,25 @@ let s:ubc.deepergravel   = ['35322d', 236]
 let s:ubc.darkgravel     = ['242321', 235]
 let s:ubc.blackgravel    = ['1c1b1a', 233]
 let s:ubc.blackestgravel = ['141413', 232]
-
 " It's corn and it's warm
 let s:ubc.warmcorn = ['fade3e', 221]
-
 " Lightly tanned skin. I said lightly!
 let s:ubc.lighttannedskin = ['f4cf86', 222]
-
 " That looks like Barça's red
 let s:ubc.barcared = ['e25a74', 161]
-
 " Algae, the lighter, green, kind
 let s:ubc.algae = ['70d731', 121]
-
 " Not Adobe but adobe. Not red but warm brown
 let s:ubc.warmadobe = ['9a4820', 88]
-
 " A calm, blue sea colour
 let s:ubc.beachblue = ['416389', 18]
-
 let s:ubc.orange = ['ffa724', 214]
 " A warmer version
 let s:ubc.warmorange = ['ff7400', 215]
-
 " Lemon yes but easy on the eyes
 let s:ubc.bleaklemon = ['f9ef6d', 154]
-
 " Ever seen a tanned umbrella? Me neither
 let s:ubc.tannedumbrella = ['c14c3d', 160]
-
 " Do you know those slightly disgusting, brown, soft confections? I hope 
 " you don't...
 let s:ubc.toffee = ['b88853', 137]
@@ -108,6 +96,7 @@ let s:ubc.nut    = ['c7915b', 173]
 " What? Your cappuccino isn't that dark? Then it sucks
 let s:ubc.cappuccino = ['88633f', 95]
 " }}}
+
 " Highlighting Function {{{
 function! s:HL(group, fg, ...)
     " Arguments: group, guifg, guibg, gui, guisp

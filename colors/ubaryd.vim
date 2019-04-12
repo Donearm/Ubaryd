@@ -294,30 +294,30 @@ if exists('g:airline_theme')
 	" vim-airline installed, enable the colors
 
 	" Visual mode
-	let s:ubc.V1 = [ '#416389', '#f8f6f2','18','15']
-	let s:ubc.V2 = [ '#416389', '#f4cf86','18','222']
-	let s:ubc.V3 = [ '#9a4820' , '#f8f6f2','88','15']
-	let s:ubc.V4 = [ '#9a4820', '88' ]
+	let s:ubc.V1 = [ '#8d684b', '#f8f6f2','131','15']
+	let s:ubc.V2 = [ '#7c6350', '#f4cf86','95','222']
+	let s:ubc.V3 = [ '#9a4820' , '#f8f6f2','130','15']
+	let s:ubc.V4 = [ '#9a4820', '15' ]
 
 	" Replace mode
 	let s:ubc.R1 = [ '#242321' , '#f8f6f2','235','15']
-	let s:ubc.R2 = [ '#ffa724' , '#666462','214','241']
-	let s:ubc.R3 = [ '#f8f6f2' , '#ff7400','15','215']
-	let s:ubc.R4 = [ '#ffa724' , '214' ]
+	let s:ubc.R2 = [ '#efbe6f' , '#45413b','228','238']
+	let s:ubc.R3 = [ '#242321' , '#efd95f','235','228']
+	let s:ubc.R4 = [ '#efbe6f' , '228' ]
 
 	let g:airline#themes#ubaryd#palette = {}
 
 	let s:StatusLine = airline#themes#get_highlight('StatusLine')
 	let s:StatusLineNC = airline#themes#get_highlight('StatusLineNC')
-	let s:ubc.I1 = [ '#f8f6f2', '#e25a74','15','161']
-	let s:ubc.I2 = [ '#242321', '#c14c3d','235','160']
+	let s:ubc.I1 = [ '#f8f6f2', '#82504d','15','88']
+	let s:ubc.I2 = [ '#1c1b1a', '#d4c2ac','233','181']
 	let s:ubc.I3 = s:StatusLine
 
 	" Normal mode
-	let s:ubc.N1 = [ '#005f00' , '#f8f6f2','22','15']
-	let s:ubc.N2 = [ '#f8f6f2' , '#005f00','15','22']
-	let s:ubc.N3 = [ '#b88853' , '#242321','137','235']
-	let s:ubc.N4 = [ '#005f00' , '22' ]
+	let s:ubc.N1 = [ '#65816d' , '#f8f6f2','120','15']
+	let s:ubc.N2 = [ '#f8f6f2' , '#65816d','15','120']
+	let s:ubc.N3 = [ '#b88853' , '#1c1b1a','137','233']
+	let s:ubc.N4 = [ '#65816d' , '120' ]
 
 	let g:airline#themes#ubaryd#palette.normal =
 	airline#themes#generate_color_map(s:ubc.N1, s:ubc.N2, s:ubc.N3)
@@ -333,7 +333,7 @@ if exists('g:airline_theme')
 	let g:airline#themes#ubaryd#palette.inactive =
 	airline#themes#generate_color_map(s:IA, s:IA, s:IA)
 	let g:airline#themes#ubaryd#palette.inactive_modified = {
-				\ 'airline_c':  ['#f9ef6d', s:IA[1],'154',s:IA[3]],
+				\ 'airline_c':  ['#e1e379', s:IA[1],'226',s:IA[3]],
 				\ }
 endif
 

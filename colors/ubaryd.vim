@@ -79,7 +79,7 @@ let s:ubc.warmadobe			= ['9a4820', 130]
 " Not so saturated orange
 let s:ubc.orange			= ['efbe6f', 208]
 " Lemon yes but easy on the eyes
-let s:ubc.bleaklemon		= ['efd95f', 226]
+let s:ubc.bleaklemon		= ['e1e379', 226]
 " Cherry wood. Just way less saturated
 let s:ubc.cherrywood		= ['8d684b', 131]
 " Do you know those slightly disgusting, brown, soft confections? I hope

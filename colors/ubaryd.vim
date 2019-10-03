@@ -71,7 +71,7 @@ let s:ubc.bleachedcorn		= ['efd95f', 228]
 " Lightly tanned skin. I said lightly!
 let s:ubc.lighttannedskin	= ['f4cf86', 222]
 " Deep, sangria red
-let s:ubc.sangria			= ['82504d', 88]
+let s:ubc.sangria			= ['82504d', 160]
 " Oak leaves
 let s:ubc.oakleaves			= ['65816d', 120]
 " Not Adobe but adobe. Not red but warm brown

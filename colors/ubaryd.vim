@@ -179,6 +179,12 @@ call s:HL('ModeMsg',    'lighttannedskin', '',   'bold')
 call s:HL('Question',   'lighttannedskin', '',   'bold')
 call s:HL('WarningMsg', 'cherrywood',       '',   'bold')
 
+call s:HL('TabLine', 'cherrywood', 'deepgravel', 'none')
+call s:HL('TabLineFill', 'bleachedcorn', 'deepgravel', 'none')
+call s:HL('TabLineSel', 'snow', 'deepgravel', 'bold')
+
+call s:HL('QuickFixLine', 'snow', 'deepgravel')
+
 " This is a ctags tag, not an HTML one.  'Something you can use c-] on'.
 call s:HL('Tag', '', '', 'bold')
 
@@ -198,6 +204,8 @@ call s:HL('FoldColumn', 'gravel', s:gutter)
 call s:HL('Cursor',  'coal', 'warmadobe', 'bold')
 call s:HL('vCursor', 'coal', 'warmadobe', 'bold')
 call s:HL('iCursor', 'coal', 'warmadobe', 'none')
+call s:HL('CursorLineNr', 'coal', 'warmadobe', 'none')
+call s:HL('CursorIM', 'coal', 'warmadobe', 'none')
 
 " }}}
 " Syntax highlighting {{{
@@ -309,6 +317,8 @@ if exists('g:airline_theme')
 
 	let s:StatusLine = airline#themes#get_highlight('StatusLine')
 	let s:StatusLineNC = airline#themes#get_highlight('StatusLineNC')
+	let s:StatusLineTerm = airline#themes#get_highlight('StatusLineTerm')
+	let s:StatusLineTermNC = airline#themes#get_highlight('StatusLineTermNC')
 	let s:ubc.I1 = [ '#f8f6f2', '#82504d','15','88']
 	let s:ubc.I2 = [ '#1c1b1a', '#d4c2ac','233','181']
 	let s:ubc.I3 = s:StatusLine

@@ -143,7 +143,7 @@ endif
 
 " General/UI {{{
 
-call s:HL('Normal', 'plain', 'blackgravel')
+call s:HL('Normal', 'plain', 'darkgravel')
 
 call s:HL('Folded', 'gravel', 'bg', 'none')
 
@@ -213,7 +213,7 @@ call s:HL('CursorIM', 'coal', 'warmadobe', 'none')
 " Start with a simple base.
 call s:HL('Special', 'plain')
 
-call s:HL('Comment',        'gravel')
+call s:HL('Comment',        'darksand')
 call s:HL('Todo',           'snow', 'sangria', 'bold')
 call s:HL('SpecialComment', 'snow', 'bg', 'bold')
 

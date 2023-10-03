@@ -280,7 +280,7 @@ call s:HL('PmenuThumb', 'darksand')
 call s:HL('DiffDelete', 'coal', 'warmadobe')
 call s:HL('DiffAdd',    'sangria',     'deepergravel')
 call s:HL('DiffChange', 'orange',     'darkgravel')
-call s:HL('DiffText',   'snow', 'deepergravel', 'bold')
+call s:HL('DiffText',   'darksand', 'deepergravel', 'bold')
 
 " }}}
 " Spelling {{{
